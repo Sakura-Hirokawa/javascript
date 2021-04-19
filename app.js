@@ -44,3 +44,25 @@ while(num < max){
 }
 
 alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+
+// do...while文
+var max = 100;
+var num = 1;
+var count = 0;
+
+do{
+  num = num*2;
+  count = count+1;
+}while(num < max);
+
+alert(count);
+
+// for文
+var i;
+var num = 0;
+
+for (i=1;i<11;i++){
+  num = num+i;
+}
+
+alert('1から10まで足し算した結果は' + num + 'です');
